@@ -1,0 +1,8 @@
+to reproduce the SSL bug
+
+1) install latest eclipse with the PDE (Plugin Development Environment)
+2) import the plugin projest from this repo
+3) run the project ("Run As -> Eclipse Application")
+4) open a browser, set ssl proxy to localhost:9095 and try opening some "https://..." url
+5) this will fail due to the bug in the ResourceExtractor (see attached screenshot)
+
